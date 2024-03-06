@@ -11,4 +11,14 @@ class Map:
 
 
     def add_wine_to_the_map(self, wine:'Wine'):
-        self.all_regions[wine.country][wine.region] = wine
+        if self.all_regions[wine.region]:
+            self.all_regions[wine.region][wine.country] = wine
+            # регіон вже підсвічений
+        else: #перше вино з цього регіону
+            self.highlight_the_region(wine.region)
+            self.all_regions[wine.region][wine.country] = wine
+
+    def highlight_the_region(self, new_region):
+        """У якийсь спосіб візуально підсвічуємо регіон"""
+        pass
+            
