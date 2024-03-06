@@ -114,38 +114,40 @@
 	letter-spacing:0;
 }
 .e38_467 { 
-	background-color:rgb(180, 93, 93);
+	background-color:beige;
 	width:1217px;
 	height:211px;
 	position:absolute;
 	left:30px;
 	top:148px;
 }
-.e38_469 { 
-	width:175px;
-	height:227px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	background-image:url(img/user_sign_icon_person_symbol_human_avatar_isolated_on_white_backogrund_vector_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
+.e38_469 {
+    width: 140px; /* ширина контейнера */
+    height: 140px; /* висота контейнера */
+    position: absolute;
+    left: 0; /* вирівнювання по лівому краю */
+    top: 50%; /* вирівнювання по середині вертикалі */
+    transform: translateY(-50%); /* центрування вертикалі */
+    background: url("../img/user_sign_icon_person_symbol_human_avatar_isolated_on_white_backogrund_vector_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .e38_470 { 
 	color:rgba(0, 0, 0, 1);
-	width:535px;
+	width:500px;
 	height:86px;
-	position:absolute;
-	left:175px;
-	top:49px;
+	position: absolute;
+    left: 140px; /* вирівнювання по лівому краю */
+    top: 25%; 
 	font-family:Open Sans;
-	text-align:left;
+	text-align:center;
 	font-size:32px;
 	letter-spacing:0;
 }
 .e38_472 { 
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-	background-color:rgb(61, 7, 106);
+	background-color:beige;
 	width:271px;
 	height:163px;
 	position:absolute;
@@ -166,7 +168,7 @@
 }
 .e38_474 { 
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-	background-color:rgb(46, 161, 65);
+	background-color:beige;
 	width:271px;
 	height:163px;
 	position:absolute;
@@ -187,9 +189,9 @@
 }
 .e38_476 { 
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-	background-color:rgb(174, 26, 124);
+	background-color:beige;
 	width:1217px;
-	height:450px;
+	height:200px;
 	position:absolute;
 	left:30px;
 	top:415px;
