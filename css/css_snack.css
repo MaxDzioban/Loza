@@ -119,8 +119,8 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 259px;
-  left: 581px;
-  font-size: 32px;
+  left: 500px;
+  font-size: 31px;
   opacity: 1;
   text-align: left;
 }
@@ -129,8 +129,8 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 762px;
-  left: 581px;
-  font-size: 32px;
+  left: 500px;
+  font-size: 31px;
   opacity: 1;
   text-align: left;
 }
@@ -139,8 +139,8 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 1268px;
-  left: 566px;
-  font-size: 32px;
+  left: 500px;
+  font-size: 31px;
   opacity: 1;
   text-align: left;
 }
@@ -149,8 +149,8 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 1817px;
-  left: 525px;
-  font-size: 32px;
+  left: 500px;
+  font-size: 31px;
   opacity: 1;
   text-align: left;
 }
@@ -159,8 +159,8 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 2439px;
-  left: 566px;
-  font-size: 32px;
+  left: 500px;
+  font-size: 31px;
   opacity: 1;
   text-align: left;
 }
@@ -174,7 +174,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 619px;
-  left: 0;
+  left: -56px;
   overflow: hidden;
 }
 .v54_583 {
@@ -187,7 +187,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 111px;
-  left: 0px;
+  left: -30px;
   overflow: hidden;
 }
 .v54_584 {
