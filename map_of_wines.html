@@ -34,8 +34,9 @@
             top: 10%;
             right: 40px;
             width:35%;
-            height: 550px;
+            height: 625px;
             background-color: rgb(245, 255, 112);
+            border-radius: 15px;
         }
         .wine-photo {
             margin-bottom: 50px;
@@ -52,15 +53,15 @@
             left: 150px;
             width:50%;
             /* height: 550px; */
-            background-color: rgb(73, 195, 125);
+            /* background-color: rgb(73, 195, 125); */
         }
         .text-wino-2 {
             position: absolute;
-            top: 64%;
+            top: 54%;
             left: 150px;
             width:50%;
             /* height: 550px; */
-            background-color: rgb(73, 195, 125);
+            /* background-color: rgb(73, 195, 125); */
         }
         .safe-button {
             position: absolute;
@@ -149,53 +150,46 @@
             Bergerie de la Bastide
         </div>
         <div class="wine-photo">
-            <img src="img/apso.png" height="200px" alt="wino1">
+            <img src="img/bottle.png" height="200px" alt="wino1">
         </div>
         <div class="text">
             Bergerie de la Bastide
         </div>
         <div class="wine-photo">
-            <img src="img/apso.png" height="200px" alt="wino1">
+            <img src="img/bottle.png" height="200px" alt="wino1">
         </div>
     
     <div class="text-wino-1">
-            Bergerie de la Bastide
-            Bergerie de la Bastide
-        dfjklfjflkffd
-        sfd
-        fdjfkkrje
-        Bergerie de la Bastide
+        Чудове італійське вино з зібране вручну фермерами в літню ніч, має приємні вишневі нотки та солодкий профіль
     </div>
 
     <div class="povz1">
         <form>
-            <label for="rating">Rating:</label>
-            <input type="range" id="rating" name="rating" min="1" max="5" step="0.5" oninput="updateRating(this.value)">
-            <output for="rating" id="rating-value">0</output>
+            <label for="rating1">Rating:</label>
+            <input type="range" id="rating1" name="rating1" min="1" max="5" step="0.5" oninput="updateRating('rating-value1', this.value)">
+            <output for="rating1" id="rating-value1">0</output>
         </form>
     </div>
-
+    
     <div class="povz2">
         <form>
-            <label for="rating">Rating:</label>
-            <input type="range" id="rating" name="rating" min="1" max="5" step="0.5" oninput="updateRating(this.value)">
-            <output for="rating" id="rating-value">0</output>
+            <label for="rating2">Rating:</label>
+            <input type="range" id="rating2" name="rating2" min="1" max="5" step="0.5" oninput="updateRating('rating-value2', this.value)">
+            <output for="rating2" id="rating-value2">0</output>
         </form>
     </div>
-
+    
     <script>
-        function updateRating(value) {
-            document.getElementById('rating-value').textContent = value;
+        function updateRating(outputId, value) {
+            document.getElementById(outputId).textContent = value;
         }
     </script>
+    
     <div class="text-wino-2">
-        Bergerie de la Bastide
-        dfjklfjflkffd
-        sfd
-        fdjfkkrje
+        Чудове італійське вино з зібране вручну фермерами в літню ніч, має приємні вишневі нотки та солодкий профіль
     </div>
 
-    <a href="map_of_wines.html" class="safe-button">Сейф</a>
+    <a href="map_of_wines.html" class="safe-button">Save</a>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

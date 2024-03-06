@@ -126,7 +126,7 @@ var simplemaps_europemap_mapdata={
     BY: {
       name: "Belarus",
       description: "москалик",
-      color: "white",
+      color: "bisque",
       hover_color: "default",
       url: "https://www.apple.com"
     },
@@ -370,7 +370,7 @@ var simplemaps_europemap_mapdata={
     },
     UA: {
       name: "Ukraine",
-      description: "default",
+      description: "Львівське Різдвяне» - це темне пиво з карамельно - пряним ароматом і ноткою різдвяних спецій, яке вариться до зимових свят.",
       color: "default",
       hover_color: "default",
       url: "default"
@@ -383,12 +383,12 @@ var simplemaps_europemap_mapdata={
       url: "default"
     }
   },
-  locations: {
-    "0": {
-      lat: 49.857,
-      lng: 24.341,
-      name: "UCU",
-    }
-  },
+  // locations: {
+  //   "0": {
+  //     lat: 49.857,
+  //     lng: 24.341,
+  //     name: "UCU",
+  //   }
+  // },
   labels: {}
 };
