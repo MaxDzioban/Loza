@@ -60,7 +60,7 @@ body {
 }
 .v26_349 {
   width: 86px;
-  color: rgba(0,0,0,1);
+  color: #d31515;
   position: absolute;
   top: 31px;
   left: 52px;
@@ -123,8 +123,8 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 110;
-  left: 30;
+  top: 20px;
+  left: 140px;
   overflow: hidden;
 }
 .v49_518 {
@@ -137,7 +137,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 705px;
-  /* left: 52px; */
+  left: 60px;
   overflow: hidden;
 }
 .v49_519 {
@@ -145,47 +145,49 @@ body {
   color: rgb(166, 14, 14);
   position: absolute;
   top: 444px;
-  left: 350px;
+  left: 600px;
   font-family: Open Sans;
   font-weight: Bold;
   font-size: 64px;
   opacity: 1;
-  text-align: right;
+  text-align: left;
 }
 /* v49_520 З якого стакана питимеш? */
 .v49_520 {
-  width: 800px;
+  width: 700px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 287px;
-  left: 462px;
-  font-family: Open Sans;
-  font-weight: Regular;
-  font-size: 32;
-  opacity: 1;
-  text-align: center;
-}
-.v52_525 {
-  width: 800px;
-  color: rgb(14, 7, 55);
-  position: absolute;
-  top: 756px;
-  left: 450px;
+  top: 200px;
+  left: 600px;
   font-family: Open Sans;
   font-weight: Regular;
   font-size: 32px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
-.v49_521 {
-  width: 100%;
+.v52_525 {
+  /* закуска текст */
+  width: 700px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 940px;
-  left: 500px;
+  top: 799px;
+  left: 600px;
   font-family: Open Sans;
-  font-weight: Bold;
-  font-size: 60px;
+  font-weight: Regular;
+  font-size: 32px;
   opacity: 1;
   text-align: left;
 }
+.v49_521 {
+  width: 700px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1050px;
+  left: 600px;
+  font-family: Open Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
