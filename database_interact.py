@@ -1,4 +1,3 @@
-"""creates a databse for further usage"""
 import sqlite3
 from user import User
 from wine import Wine
